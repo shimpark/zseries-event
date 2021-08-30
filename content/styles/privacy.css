@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+
+/*============================================================
+policy
+============================================================*/
+#wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+  background-color: #f9f9fc;
+}
+
+.policy-hd-tit {
+  padding: 4rem 0 1.5rem;
+}
+
+.policy-sub-tit {
+  display: block;
+  padding: 2rem 0 0.5rem;
+  font-size: 1.75rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.policy-tbl {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.policy-tbl th,
+.policy-tbl td {
+  padding: 0.75rem 1rem;
+  font-weight: 400;
+}
+
+.policy-tbl thead th {
+  font-weight: 400;
+  color: #000;
+  background-color: #d9d9d9;
+}
+
+.policy-tbl tbody td {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.fs18 {
+  font-size: 1.1rem !important;
+}
+
+.fs28 {
+  font-size: 1.25rem !important;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.fc-white {
+  /* color: #fff !important; */
+  color: #000 !important;
+}
+
+/* 개인정보처리방침 */
+.privacy {
+  padding: 4rem 0 0 0;
+  color: #000;
+  line-height: 1.6;
+}
+
+.fs22 {
+  font-size: 1.37rem;
+}
+
+.fs32 {
+  font-size: 2rem;
+}
+
+.fwbold {
+  font-weight: 700;
+}
+
+.policy-txt,
+.policy-tbl tbody td {
+  line-height: 1.6;
+}
+
+.policy-tbl tbody td {
+  vertical-align: middle;
+}
+
+.text {
+  padding: 1rem 0;
+  border-top: 1px solid #000;
+  line-height: 1.6;
+}
+
+@media (max-width: 575.98px) {
+
+  .fs18,
+  .policy-txt,
+  .policy-tbl tbody td {
+    font-size: 17px !important;
+  }
+
+  .fs28 {
+    font-size: 20px !important;
+  }
+
+  .privacy {
+    font-size: 24px;
+  }
+
+  .policy-tbl thead th,
+  .fs28 {
+    vertical-align: middle;
+    line-height: 1.6;
+  }
+}
+
+/* form modal
+============================================================*/
+.form-terms {
+  overflow-y: scroll;
+  padding: 1rem 1.5rem;
+  height: 9rem;
+  color: #666;
+  border: 2px solid #e1e1e1;
+}
+
+.form-terms-tbl {
+  width: 100%;
+  table-layout: fixed;
+  margin: 0.75rem 0;
+}
+
+.form-terms-tbl th,
+.form-terms-tbl td {
+  padding: 0.5rem;
+  line-height: 1.2;
+}
+
+.form-terms-tbl thead th {
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  background-color: #999;
+}
+
+.form-terms-tbl tbody td {
+  border-bottom: 1px solid #999;
+}
+
+@media screen and (max-width: 768.98px) {
+  .form-terms {
+    height: 19rem;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .modal-form-row__high {
+    padding: 1.5rem 0;
+  }
+
+  .modal-form-row__low {
+    padding: 1rem 0;
+  }
+
+  .form-label__col {
+    width: 100%;
+  }
+
+  .form-field__col {
+    padding-top: 1rem;
+    width: 100%;
+  }
+}
