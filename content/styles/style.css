@@ -234,11 +234,22 @@
         width: 76.32%;
     }
 
-    .form-terms-tbl thead th,
-    .form-terms-tbl tbody td,
+    /* 21 08 31 네이블 수정 */
+    /* .form-terms-tbl thead th, */
+    /* .form-terms-tbl tbody td, */
     .box1 .text-box p {
-        font-size: 18px;
+        font-size: 16px !important;
     }
+
+    /* //21 08 31 네이블 수정 */
+
+    /* 21 08 31 네이블 수정 추가 */
+    .form-terms-tbl thead th,
+    .text-box tbody td {
+        font-size: 14px;
+    }
+
+    /* //21 08 31 네이블 수정 추가 */
 
     .box2 li button {
         line-height: 1.3;
